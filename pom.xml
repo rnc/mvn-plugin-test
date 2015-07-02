@@ -52,7 +52,7 @@
                         </goals>
                         <configuration>
                             <source>
-                                https://github.com/rnc/mvn-plugin-test/master/src/main/resources/script.groovy
+                                https://raw.githubusercontent.com/rnc/mvn-plugin-test/master/src/main/resources/script.groovy
                             </source>
                         </configuration>
                     </execution>
