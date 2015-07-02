@@ -24,12 +24,14 @@
                 <version>1.2.1</version>
                 <executions>
                     <execution>
-                        <id>install-jbpm</id>
+                        <id>get-readme</id>
                         <phase>pre-integration-test</phase>
                         <goals>
                             <goal>wget</goal>
                         </goals>
                         <configuration>
+                            <overwrite>true</overwrite>
+                            <skipCache>true</skipCache>
                             <url>https://github.com/project-ncl/pnc/raw/master/README.md</url>
                         </configuration>
                     </execution>
