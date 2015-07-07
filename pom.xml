@@ -32,7 +32,7 @@
                         <configuration>
                             <overwrite>true</overwrite>
                             <skipCache>true</skipCache>
-                            <url>https://github.com/project-ncl/pnc/raw/master/README.md</url>
+                            <url>http://www.google.com/index.html</url>
                         </configuration>
                     </execution>
                 </executions>
